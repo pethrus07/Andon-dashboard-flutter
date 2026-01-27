@@ -75,4 +75,3 @@ Projeto desenvolvido por **Pedro Michael**
 ✔ Interface finalizada  
 ✔ Arquitetura pronta para integração  
 ⏳ Aguardando biblioteca CLP
->>>>>>> 165df5699bc320baf1759d75c974dc862e49e107
