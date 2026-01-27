@@ -1,5 +1,4 @@
 
-=======
 # 🏭 Andon Dashboard - Flutter + CLP
 
 Dashboard industrial estilo **Andon**, desenvolvido em **Flutter**, preparado para integração direta com **CLPs industriais** via bibliotecas externas.
