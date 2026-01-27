@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # flutter_application_1
 
 A new Flutter project.
@@ -14,3 +15,81 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# 🏭 Andon Dashboard - Flutter + CLP
+
+Dashboard industrial estilo **Andon**, desenvolvido em **Flutter**, preparado para integração direta com **CLPs industriais** via bibliotecas externas.
+
+---
+
+## 🚀 Funcionalidades
+
+- Exibição em tempo real de:
+  - Turno atual
+  - Hora do turno
+  - Produção por setor
+  - Indicadores triangulares de desempenho
+- Dashboard Full HD (1920x1080)
+- Arquitetura preparada para:
+  - Integração direta com CLP
+  - Modbus TCP / OPC-UA / bibliotecas proprietárias
+- Gráficos dinâmicos com **FL Chart**
+
+---
+
+## 🏗 Arquitetura
+
+```
+lib/
+ ├── main.dart          → Interface principal (Dashboard)
+ └── models/
+     └── clp.dart       → Camada de integração com CLP (simulação / real)
+```
+
+---
+
+## 🔌 Integração com CLP
+
+A classe `CLP` foi projetada para permitir:
+
+- Substituição direta da simulação por:
+  - Leituras reais do CLP
+  - Bibliotecas industriais
+  - Protocolos industriais
+
+### Fluxo previsto:
+```
+CLP → Biblioteca → Flutter UI
+```
+
+---
+
+## 🖥 Requisitos
+
+- Flutter SDK >= 3.x
+- Windows / Linux / Android
+
+---
+
+## ▶️ Execução
+
+```bash
+flutter pub get
+flutter run -d windows
+```
+
+---
+
+## 🧠 Autor
+
+Projeto desenvolvido por **Pedro Michael**  
+Área: Automação • IA • Dashboards industriais • Integrações complexas
+
+---
+
+## 📌 Status
+
+✔ Interface finalizada  
+✔ Arquitetura pronta para integração  
+⏳ Aguardando biblioteca CLP
+>>>>>>> 165df5699bc320baf1759d75c974dc862e49e107
