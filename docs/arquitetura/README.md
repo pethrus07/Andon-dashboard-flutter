@@ -4,23 +4,23 @@ Três vistas do sistema, cada uma numa notação padrão.
 
 | Vista | Notação | Responde |
 |---|---|---|
-| 1. Casos de uso | UML | Quem usa e para quê |
-| 2. Processo | BPMN 2.0 | Como o trabalho anda, com uma raia para cada quem executa |
-| 3. Arquitetura | C4, nível 2 | De que partes o sistema é feito e com quem conversa |
+| Casos de uso | UML | Quem usa e para quê |
+| Processo | BPMN 2.0 | Como o trabalho anda, com uma raia para cada quem executa |
+| Arquitetura | C4, nível 2 | De que partes o sistema é feito e com quem conversa |
 
 ## Andon Dashboard · painel de chão de fábrica
 
 Painel Andon em Flutter, Full HD, que mostra turno, hora do turno, produção por setor e indicadores. A fonte dos dados fica isolada dentro do app: hoje gera sinais simulados, e está pronta para trocar pelo CLP real.
 
-### 1. Quem usa e para quê
+### Quem usa e para quê
 
 ![Casos de uso de Andon Dashboard](./andon-dashboard-1-casos-de-uso.svg)
 
-### 2. Um ciclo de atualização do painel
+### Um ciclo de atualização do painel
 
 ![Processo de Andon Dashboard](./andon-dashboard-2-processo.svg)
 
-### 3. Arquitetura
+### Arquitetura
 
 ![Arquitetura de Andon Dashboard](./andon-dashboard-3-arquitetura.svg)
 
