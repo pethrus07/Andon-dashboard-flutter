@@ -24,4 +24,4 @@ flutter test        # 1 smoke test: the dashboard builds at 1920x1080 without er
 
 ## License
 
-All rights reserved.
+MIT. See [LICENSE](LICENSE).

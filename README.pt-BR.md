@@ -24,4 +24,4 @@ flutter test        # 1 teste de fumaça: o painel monta em 1920x1080 sem erro
 
 ## Licença
 
-Todos os direitos reservados.
+MIT. Veja [LICENSE](LICENSE).
